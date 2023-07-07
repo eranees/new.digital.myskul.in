@@ -1,0 +1,12 @@
+{
+    "name": "aneesakbar/public",
+    "authors": [
+        {
+            "name": "Er Anees Akbar",
+            "email": "99726488+eranees@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "almasaeed2010/adminlte": "~3.2"
+    }
+}
