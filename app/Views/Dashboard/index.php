@@ -7,8 +7,7 @@
   <title>Dashboard Index</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Font Awesome -->
@@ -32,11 +31,9 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
   <div class="wrapper">
-
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
-      <img class="animation__shake" src="<?= base_url(ADMIN_LTE) ?>dist/img/AdminLTELogo.png" alt="AdminLTELogo"
-        height="60" width="60">
+      <img class="animation__shake" src="<?= base_url(ADMIN_LTE) ?>dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
     </div>
 
     <!-- Navbar -->
@@ -88,8 +85,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user1-128x128.jpg" alt="User Avatar"
-                  class="img-size-50 mr-3 img-circle">
+                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Brad Diesel
@@ -105,8 +101,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user8-128x128.jpg" alt="User Avatar"
-                  class="img-size-50 img-circle mr-3">
+                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -122,8 +117,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user3-128x128.jpg" alt="User Avatar"
-                  class="img-size-50 img-circle mr-3">
+                <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Nora Silvester
@@ -184,8 +178,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="index3.html" class="brand-link">
-        <img src="<?= base_url(ADMIN_LTE) ?>dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
-          class="brand-image img-circle elevation-3" style="opacity: .8">
+        <img src="<?= base_url(ADMIN_LTE) ?>dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
       </a>
 
@@ -194,11 +187,10 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2"
-              alt="User Image">
+            <img src="<?= base_url(ADMIN_LTE) ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">Alexander Pierce</a>
+            <a href="#" class="d-block"><?php echo $name; ?></a>
           </div>
         </div>
 
