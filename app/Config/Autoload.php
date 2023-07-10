@@ -42,8 +42,8 @@ class Autoload extends AutoloadConfig
     public $psr4 = [
         APP_NAMESPACE => APPPATH, // For custom app namespace
         'Config'      => APPPATH . 'Config',
+        'CodeIgniter\Session\SessionInterface' => SYSTEMPATH . 'Session/SessionInterface.php'
     ];
-
     /**
      * -------------------------------------------------------------------
      * Class Map
@@ -93,5 +93,5 @@ class Autoload extends AutoloadConfig
      * @var string[]
      * @phpstan-var list<string>
      */
-    public $helpers = ['url'];
+    public $helpers = ['url', 'form'];
 }
